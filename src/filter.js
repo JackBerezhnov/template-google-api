@@ -5,7 +5,7 @@ function filterFunction() {
     div = document.getElementById("videos");
     a = div.querySelectorAll(".vid a");
     tag = div.querySelectorAll(".vid .tag")	 	
-    row = div.querySelectorAll(".row");
+    row = div.querySelectorAll(".check-search");
     for (i = 0; i < a.length; i++) {
       txtValue = a[i].textContent || a[i].innerText;
       txtValueTag = tag[i].textContent || tag[i].innerText;

@@ -3,6 +3,15 @@ body {
     padding: 0;
 }
 
+h6 {
+    margin-top: 25px !important;
+}
+
+iframe {
+    width: 500px !important;
+    height: 250px !important;
+}
+
 .searcher {
     position: relative;
     display: flex;
@@ -41,6 +50,9 @@ body {
     right: 8px;
 }
 
+.vid {
+    margin: 15px;
+}
 
 .tr-box {
     display: flex;

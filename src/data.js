@@ -51,6 +51,7 @@ async function showData() {
 					margin-left: 1px !important;
 					filter: contrast(0.85);
 					transition: all .1s linear;
+					width: 500px;
     				margin: 15px;
     				padding: 15px;
 					box-shadow: 0px 0px 42.32px 3.68px rgba(0, 1, 1, 0.122);
@@ -86,7 +87,7 @@ async function showData() {
         let embed = embedFilter[3];
         let element = document.createElement("div");
         let template = `
-		<div class="row tr-box">
+		<div class="check-search tr-box">
 			<div class="vid">
 				<div class="vid-frame">
 					<div class="">
