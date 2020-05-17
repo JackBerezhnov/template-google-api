@@ -1,5 +1,5 @@
 function filterFunction() {
-    var input, filter, ul, li, a, i, row, tag;
+    var input, filter, a, i, row, tag;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     div = document.getElementById("videos");
