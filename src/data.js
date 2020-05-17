@@ -2,7 +2,7 @@ async function showData() {
     
     let url = `https://spreadsheets.google.com/feeds/list/1tw_rkzBOInhdMF0iwWCh2oBBFrHLgjK8Lxj_B9PyVhE/1/public/full?alt=json`;
     let response = await fetch(url);
-    let data = await response.json();
+	let data = await response.json();
     let arr = data.feed.entry;
 	let newArr = [];
 	let checkDate = [];
