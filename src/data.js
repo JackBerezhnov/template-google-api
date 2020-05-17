@@ -64,7 +64,7 @@ async function showData() {
 			let template = `
 				${style}
 				<hr style="clear: both;" />
-				<h2><a class="collapsed" data-toggle="collapse" data-target="#${checkDate[lastItem]}">${checkDate[lastItem]}</a></h2>
+				<h2><a class="collapsed date" data-toggle="collapse" data-target="#${checkDate[lastItem]}">${checkDate[lastItem]}</a></h2>
 				<div id="${checkDate[lastItem]}" class="collapsed">
 
 				</div>
@@ -98,11 +98,11 @@ async function showData() {
 
 			<div class="vid tr-one">
 				<span class="card-date">${date}</span>
-				<h6><a href="${url}">${name}<br /></a></h6>
+				<h6><a href="${url}">${name}</a></h6>
                 <p>${description}</p>
                 <p class="tag">${tags}</p>
 			</div>
-		<div>
+		</div>
         `
         element.innerHTML = template;
         document.getElementById(`${dateValid}`).appendChild(element);

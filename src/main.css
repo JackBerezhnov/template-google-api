@@ -21,6 +21,10 @@ iframe {
     text-align: center;
 }
 
+.date {
+    padding-left: 20px;
+}
+
 .search-container {
     padding-left: 50px;
     padding-top: 20px;
@@ -72,4 +76,10 @@ iframe {
 
 #myInput {
     width: 30%;
+}
+
+@media only screen and (max-width: 500px) {
+    iframe {
+        width: 100% !important; 
+    }
 }
