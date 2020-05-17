@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./src/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <title>Template Demo</title>
 </head>
 <body>
+    <header>
+        <div class="title">
+            <h1>Template videos from googlespread sheet API</h1>
+        </div>
+        <div class="description">
+            <p>All this videos generate and connected from googlespread file! If you want change videos just change this file <a href="https://docs.google.com/spreadsheets/d/1tw_rkzBOInhdMF0iwWCh2oBBFrHLgjK8Lxj_B9PyVhE/edit#gid=0"><span>google spreadsheet</span></a></p>
+        </div>
+    </header>
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@16.0.0/dist/lazyload.min.js"></script>
@@ -18,7 +28,8 @@
     <div class="search-container">
 		<div class="searcher span4" style="display: flex;">
 			<input type="text" class="searchTerm" placeholder="Search.." id="myInput" onkeyup="filterFunction()"/>
-		</div>
+        </div>
+        <p>Use title name or tag for search a video!</p>
 	</div>	
 		
 	<br/>

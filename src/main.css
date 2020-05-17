@@ -12,6 +12,15 @@ iframe {
     height: 250px !important;
 }
 
+.title {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.description {
+    text-align: center;
+}
+
 .searcher {
     position: relative;
     display: flex;
