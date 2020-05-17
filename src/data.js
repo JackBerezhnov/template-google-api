@@ -97,7 +97,7 @@ async function showData() {
 
 			<div class="vid tr-one">
 				<span class="card-date">${date}</span>
-				<h4><a href="${url}">${name}<br /></a></h4>
+				<h6><a href="${url}">${name}<br /></a></h6>
                 <p>${description}</p>
                 <p class="tag">${tags}</p>
 			</div>
